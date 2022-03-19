@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+
+    background-color: #182428;
+}
+
+.autor
+{
+    font-family: 'Open Sans';
+    color: #d1e2f5;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: rgb(207, 226, 245);
+    background-color: #3d545c;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+    height: 18%;
+    font-size: 90%;
+    transition: all .2s linear;
+}
+
+.babtn
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    color: rgb(207, 226, 245);
+    background-color: #3d545c;
+    border-color: rgb(207, 226, 245);
+    border-style: solid;
+    border-radius: 7px;
+    width: 6%;
+    height: 8%;
+    position: absolute;
+    top: 50%;
+    left: 31%;
+    transform: translate(-50%, -69%);
+    transition: all .2s linear;
+    font-size: 90%;
+}

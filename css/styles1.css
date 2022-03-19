@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+
+    background-color: #182428;
+}
+
+.btn
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    color: rgb(207, 226, 245);
+    background-color: #3d545c;
+    border-color: rgb(207, 226, 245);
+    border-style: solid;
+    border-radius: 7px;
+    width: 6%;
+    height: 8%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all .2s linear;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+.credit
+{
+    width: 4%;
+    height: 8%;
+    transition: all .2s linear;
+    position: absolute;
+    left: 43%;
+    top: 50%;
+    transform: translate(-57%, -50%);
+    cursor: pointer;
+}

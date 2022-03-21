@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+body
+{
+    background-color: #182428;
+}
+
+.clock
+{
+    font-family: 'Cutive Mono', monospace;
+    color: #d1e2f5;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 600%;
+    user-select: none;
+    transition: all .4s linear;
+    opacity: 30%;
+    filter: blur(8px);
+    cursor: pointer;
+}

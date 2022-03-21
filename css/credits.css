@@ -7,37 +7,40 @@ body{
 
 .autor
 {
-    font-family: 'Open Sans';
-    color: #d1e2f5;
-    border-style: solid;
-    border-radius: 7px;
-    border-color: rgb(207, 226, 245);
-    background-color: #3d545c;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 25%;
-    height: 18%;
-    font-size: 90%;
     transition: all .2s linear;
-}
-
-.babtn
-{
+    font-size: 100%;
     font-family: 'Open Sans';
     font-style: normal;
     color: rgb(207, 226, 245);
     background-color: #3d545c;
-    border-color: rgb(207, 226, 245);
-    border-style: solid;
-    border-radius: 7px;
-    width: 6%;
+    border: none;
+    width: 25%;
+    height: 18%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    user-select: none;
+    opacity: 20%;
+}
+
+.babtn
+{
+    transition: all .2s linear;
+    font-size: 100%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    color: rgb(207, 226, 245);
+    background-color: #3d545c;
+    border: none;
+    width: 2%;
     height: 8%;
     position: absolute;
     top: 50%;
-    left: 31%;
-    transform: translate(-50%, -69%);
-    transition: all .2s linear;
-    font-size: 90%;
+    left: 33%;
+    opacity: 20%;
+    transform: translate(-67%, -50%);
+    cursor: pointer;
+    user-select: none;
 }

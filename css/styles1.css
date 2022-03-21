@@ -1,28 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
 
 body{
-
     background-color: #182428;
 }
 
 .btn
 {
-    font-family: 'Open Sans';
-    font-style: normal;
-    color: rgb(207, 226, 245);
-    background-color: #3d545c;
-    border-color: rgb(207, 226, 245);
-    border-style: solid;
-    border-radius: 7px;
-    width: 6%;
-    height: 8%;
     position: absolute;
-    top: 50%;
     left: 50%;
+    top: 50%;
+    width: 4%;
+    height: 8%;
     transform: translate(-50%, -50%);
     transition: all .2s linear;
-    font-size: 100%;
-    cursor: pointer;
+    user-select: none;
 }
 
 .credit
@@ -35,4 +29,78 @@ body{
     top: 50%;
     transform: translate(-57%, -50%);
     cursor: pointer;
+    user-select: none;
+}
+
+.loader
+{
+    background-color: aliceblue;
+    width: 600px;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loader__fill
+{
+    background-color: #182428;
+    width: 130px;
+    height: 80%;
+    position: absolute;
+    left: 1%;
+    top: 10%;
+    animation: lines steps(500, end) 5s;
+}
+
+.loader__text
+{
+    font-family: Poppins;
+    font-size: 180%;
+    position: absolute;
+    left: 2%;
+    top: 15px;
+    color: aliceblue;
+    user-select: none;
+}
+
+.loader__text::after
+{
+    content: '\2026';
+    display: inline-block;
+    vertical-align: bottom;
+    overflow: hidden;
+    animation: dots steps(4, end) 1.2s infinite;
+    width: 0%;
+}
+
+@keyframes lines 
+{
+    to
+    {
+        width: 585px;
+    }
+}
+
+@keyframes dots
+{
+    to
+    {
+        width: 14%;
+    }
+}   
+
+.clock
+{
+
+    width: 4%;
+    height: 8%;
+    transition: all .2s linear;
+    position: absolute;
+    left: 57%;
+    top: 50%;
+    transform: translate(-43%, -50%);
+    cursor: pointer;
+    user-select: none;
 }
